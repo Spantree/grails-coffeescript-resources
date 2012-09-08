@@ -8,6 +8,7 @@ class CoffeescriptResourcesGrailsPlugin {
     def grailsVersion = "1.3.7 > *"
     def dependsOn = [:]
     def pluginExcludes = [
+            "scripts/_Events.groovy",
             "scripts/_RhinoJarJar.groovy",
             "src/coffee/test.coffee",
             "src/coffee/smtelse.coffee",
