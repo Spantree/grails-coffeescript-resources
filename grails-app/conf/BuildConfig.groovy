@@ -15,7 +15,7 @@ grails.project.dependency.resolution = {
     }
     dependencies {
       // specify dependencies here under either 'build', 'compile', 'runtime', 'test' or 'provided' scopes eg.
-      runtime 'org.mozilla:rhino:1.7R3'    
+      build 'com.googlecode.jarjar:jarjar:1.3'
     }
     plugins {
         build ":release:2.0.0", {
