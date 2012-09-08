@@ -1,13 +1,13 @@
 package org.grails.plugins.coffeescript
 
 
-import org.mozilla.javascript.Context;
-import org.mozilla.javascript.Function;
-import org.mozilla.javascript.JavaScriptException;
-import org.mozilla.javascript.NativeArray;
-import org.mozilla.javascript.Scriptable;
-import org.mozilla.javascript.ScriptableObject;
-import org.mozilla.javascript.tools.shell.Global;
+import org.grails.plugins.coffeescript.mozilla.javascript.Context;
+import org.grails.plugins.coffeescript.mozilla.javascript.Function;
+import org.grails.plugins.coffeescript.mozilla.javascript.JavaScriptException;
+import org.grails.plugins.coffeescript.mozilla.javascript.NativeArray;
+import org.grails.plugins.coffeescript.mozilla.javascript.Scriptable;
+import org.grails.plugins.coffeescript.mozilla.javascript.ScriptableObject;
+import org.grails.plugins.coffeescript.mozilla.javascript.tools.shell.Global;
 import org.springframework.core.io.ClassPathResource
 
 
